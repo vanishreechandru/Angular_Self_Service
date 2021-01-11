@@ -1,0 +1,13 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "mock-server":"json-server - watch mocks/db.json"
+      },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
