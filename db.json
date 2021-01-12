@@ -1,8 +1,13 @@
 {
-  "roles": [
-    {
-      "id": 1,
-      "title": "json-server"
-    }
-  ]
+    "roles": [
+{"id":1, "role":"Manager"},
+{"id":2, "role":"Proxy manager"},
+{"id":3, "role":"Admin"},
+{"id":4, "role":"developer"}
+
+    ],
+    "users": [
+        {"id":1, "user_id":"1001","password": "zzz","role":"Manager"},
+        {"id":2, "user_id":"1002","password": "zzz","role":"Proxy manager"}
+    ]
 }
