@@ -1,6 +1,12 @@
 {
     "/roles" : {
-       "target": "http://localhost:3000",
+       "target": "http://localhost:3000/roles",
+       "secure":  false
+    },
+    "/users" : {
+       "target": "http://localhost:3000/users",
        "secure":  false
     }
+
+
 }
